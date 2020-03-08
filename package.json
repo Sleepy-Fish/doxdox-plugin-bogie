@@ -1,13 +1,14 @@
 {
-  "name": "doxdox-plugin-bootstrap",
-  "description": "Bootstrap template plugin for doxdox.",
-  "version": "2.0.0",
+  "name": "doxdox-plugin-bogie",
+  "description": "Bogie.js layout plugin for doxdox.",
+  "version": "1.0.0",
   "main": "index.js",
   "engines": {
     "node": ">=8.0"
   },
   "license": "MIT",
   "dependencies": {
+    "doxdox": "^3.0.0",
     "handlebars": "4.1.0",
     "highlight.js": "9.15.6",
     "markdown-it": "8.4.2"
@@ -30,18 +31,23 @@
   "keywords": [
     "doxdox",
     "plugin",
-    "bootstrap"
+    "bogie"
   ],
   "authors": [
     {
       "name": "Scott Doxey",
       "email": "hello@scottdoxey.com",
       "homepage": "http://scottdoxey.com/"
+    },
+    {
+      "name": "J Riley Harrington",
+      "email": "riley@sleepy.fish",
+      "homepage": "https://sleepy.fish/"
     }
   ],
-  "homepage": "https://github.com/neogeek/doxdox-plugin-bootstrap",
+  "homepage": "https://github.com/Sleepy-Fish/doxdox-plugin-bogie",
   "repository": {
     "type": "git",
-    "url": "git://github.com/neogeek/doxdox-plugin-bootstrap.git"
+    "url": "git://github.com/Sleepy-Fish/doxdox-plugin-bogie.git"
   }
 }

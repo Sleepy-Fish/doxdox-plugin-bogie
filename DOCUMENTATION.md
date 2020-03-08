@@ -1,6 +1,6 @@
-# [doxdox-plugin-bootstrap](https://github.com/neogeek/doxdox-plugin-bootstrap) *2.0.0*
+# [doxdox-plugin-bogie](https://github.com/Sleepy-Fish/doxdox-plugin-bogie) *1.0.0*
 
-> Bootstrap template plugin for doxdox.
+> Bogie.js layout plugin for doxdox.
 
 
 ### index.js
@@ -25,7 +25,7 @@ Boostrap template plugin for doxdox.
 ##### Examples
 
 ```javascript
-parseInputs(inputs, {'parser': 'dox', 'layout': 'bootstrap'}).then(content => console.log(content));
+parseInputs(inputs, {'parser': 'dox', 'layout': 'bogie'}).then(content => console.log(content));
 ```
 
 

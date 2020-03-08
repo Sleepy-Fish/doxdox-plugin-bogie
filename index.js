@@ -8,7 +8,7 @@ require('./helpers');
 /**
  * Boostrap template plugin for doxdox.
  *
- * @example parseInputs(inputs, {'parser': 'dox', 'layout': 'bootstrap'}).then(content => console.log(content));
+ * @example parseInputs(inputs, {'parser': 'dox', 'layout': 'bogie'}).then(content => console.log(content));
  * @param {Array} data Methods parsed using a doxdox parser.
  * @return {Promise} Promise with generated content.
  * @public
