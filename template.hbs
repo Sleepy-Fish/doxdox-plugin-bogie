@@ -231,7 +231,7 @@
 
                         <h2 id="{{uid}}">
                             <a href="#{{uid}}" class="permalink">#</a>
-                            <span class="method-name" title="{{name}}({{params}})">{{name}}({{params}})</span>
+                            <span class="method-name" title="{{name}}({{params}})">{{#if isAbstract}}Abstract {{/if}}{{name}}({{params}})</span>
                             {{#if isPrivate}}
                             <small class="scope-private">private {{type}}</small>
                             {{/if}}
