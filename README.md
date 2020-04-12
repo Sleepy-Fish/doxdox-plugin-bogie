@@ -1,15 +1,24 @@
-# doxdox-plugin-bogie
+# doxdox-plugin-json
 
-> Bogie.js documentation layout plugin for doxdox.
+> doxdox plugin that just returns pure json for use with more complex website templating
 
 ## Install
 
 ```bash
-$ npm install doxdox doxdox-plugin-bogie --save-dev
+$ npm install doxdox doxdox-plugin-json --save-dev
 ```
 
 ## Usage
 
-```bash
-$ doxdox 'src/**/*.js' --layout bogie --output docs/index.html
+```js
+const doxdox = require('doxdox');
+const classes = [ ... ]; // List of paths to files with JSDocs
+const myParser = 'sleepyfish'
+
+doxdox.parseFiles(classes, {
+  parser: myParser,
+  loader: 'json'
+}).then(content => {
+  // content is JSON of your docs
+});
 ```
